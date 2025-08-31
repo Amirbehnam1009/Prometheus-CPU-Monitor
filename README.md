@@ -36,26 +36,26 @@ Prometheus: Scrapes the metrics from the server's HTTP endpoint and stores the t
 
 * Prometheus
 
-1. Clone the Repository
+**1. Clone the Repository**
 ``` bash
 git clone https://github.com/your-username/prometheus-cpu-monitor-agent.git
 cd prometheus-cpu-monitor-agent
 ```
-2. Install Python Dependencies
+**2. Install Python Dependencies**
 ``` bash
 pip install psutil prometheus-client
 ```
-3. Run the Server
+**3. Run the Server**
 ``` bash
 python server.py
 ```
-4. Run the Client
+**4. Run the Client**
 In a separate terminal:
 
 ``` bash
 python client.py
 ```
-5. Configure and Run Prometheus
+**5. Configure and Run Prometheus**
 Use the provided `prometheus.yml` config and run:
 
 ``` bash
